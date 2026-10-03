@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
+  <defs>
+    <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0e1830"/><stop offset="1" stop-color="#1c2c50"/>
+    </linearGradient>
+    <linearGradient id="pitch" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1e4a26"/><stop offset="1" stop-color="#153a1c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#sky2)"/>
+  <rect y="560" width="1600" height="440" fill="url(#pitch)"/>
+  <ellipse cx="800" cy="580" rx="900" ry="90" fill="#25803a" opacity=".55"/>
+  <g stroke="#dfe6f2" stroke-width="6" fill="none" opacity=".85">
+    <line x1="60" y1="720" x2="1540" y2="720"/>
+    <circle cx="800" cy="720" r="170"/>
+    <rect x="60" y="600" width="230" height="240"/>
+    <rect x="1310" y="600" width="230" height="240"/>
+    <rect x="60" y="660" width="100" height="120"/>
+    <rect x="1440" y="660" width="100" height="120"/>
+  </g>
+  <g>
+    <rect x="20" y="580" width="26" height="200" fill="#2f6bff"/>
+    <rect x="1554" y="580" width="26" height="200" fill="#ff8c1a"/>
+  </g>
+  <text x="800" y="930" text-anchor="middle" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="#e8edf7" letter-spacing="14">STADIUM SOCCER</text>
+</svg>
